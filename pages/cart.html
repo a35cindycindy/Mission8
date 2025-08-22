@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/air-datepicker@3.6.0/air-datepicker.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>會員專區-Celia</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <main class="bg-neutral-10">
+      <!-- 費用明細 -->
+      <section class="container py-lg-13 py-10">
+      <div class="row d-flex">
+        <div class="col-lg-8">
+            <div class="card border rounded-4 mb-10">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center gap-3">
+                  <div class="py-5 px-lg-7">
+                    <input class="form-check-input rounded-2" type="checkbox" checked>
+                  </div>
+                  <button type="button" class="btn py-5 px-9 border-primary-100 text-primary-100">刪除選中活動</button>  
+                </div>
+              </div>
+            </div>        
+            <div class="card border rounded-4 mb-7">
+              <div class="card-body">
+                <!-- 上半排版 -->
+                <div class="d-block align-items-start gap-3 border-bottom d-lg-flex">
+                  <div class="py-5 px-lg-7">
+                    <input class="form-check-input rounded-2" type="checkbox" checked>
+                  </div>
+                  <div class="d-block align-items-center d-lg-flex">
+                    <img src="/assets/images/cart/cart-1.png" alt="商品縮圖" class="rounded-3 object-fit-cover flex-shrink-0 cart-img mb-4 me-lg-4">
+                    <div class="flex-grow-1 me-lg-7">
+                      <h4 class="fw-bold mb-2">
+                        海關天空展望台門票 HARUKAS 300
+                      </h4>
+                      <p class="mb-2 small text-neutral-60">阿倍野展望台門票 HARUKAS 300 ｜ 附章魚燒兌換券</p>
+                      <p class="mb-7 small text-neutral-60">兌換期內皆適用</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 mb-5">
+                      <button type="button"
+                              class="btn btn-outline-secondary rounded-circle border-neutral-40 d-inline-flex align-items-center justify-content-center p-0"
+                              aria-label="減少"
+                              style="width:56px;height:56px;font-size:20px;">−</button>
+
+                      <span class="fw-semibold px-5 fs-3">2</span>
+
+                      <button type="button"
+                              class="btn btn-outline-secondary rounded-circle border-neutral-40 d-inline-flex align-items-center justify-content-center p-0"
+                              aria-label="增加"
+                              style="width:56px;height:56px;font-size:20px;">+</button>
+                    </div>
+
+
+
+                  </div>
+
+                </div>
+                    <!-- 下半：左連結、右價格 -->
+                <div class="d-flex align-items-center justify-content-between py-5">
+                      <div class="d-flex ">
+                        <a href="#" class="link-secondary me-4 me-lg-10 ms-edit">編輯</a>
+                        <a href="#" class="link-secondary ">刪除</a>
+                      </div>
+                      <div class="fw-bold fs-4">NT$ 830</div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="card border rounded-4 mb-7">
+              <div class="card-body">
+                <!-- 上半排版 -->
+                <div class="d-block align-items-start gap-3 border-bottom d-lg-flex">
+                  <div class="py-5 px-lg-7">
+                    <input class="form-check-input rounded-2" type="checkbox" checked>
+                  </div>
+                  <div class="d-block align-items-center d-lg-flex">
+                    <img src="/assets/images/cart/cart-1.png" alt="商品縮圖" class="rounded-3 object-fit-cover flex-shrink-0 cart-img mb-4 me-lg-4">
+                    <div class="flex-grow-1 me-lg-7">
+                      <h4 class="fw-bold mb-2">
+                        泰式按摩過猛求生體驗
+                      </h4>
+                      <p class="mb-2 small text-neutral-60">限量脫骨套餐｜師傅強度隨緣，靈魂有機會先離開</p>
+                      <p class="mb-7 small text-neutral-60">兌換期內皆適用</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 mb-5">
+                      <button type="button"
+                              class="btn btn-outline-secondary rounded-circle border-neutral-40 d-inline-flex align-items-center justify-content-center p-0"
+                              aria-label="減少"
+                              style="width:56px;height:56px;font-size:20px;">−</button>
+
+                      <span class="fw-semibold px-5 fs-3">2</span>
+
+                      <button type="button"
+                              class="btn btn-outline-secondary rounded-circle border-neutral-40 d-inline-flex align-items-center justify-content-center p-0"
+                              aria-label="增加"
+                              style="width:56px;height:56px;font-size:20px;">+</button>
+                    </div>
+
+
+
+                  </div>
+
+                </div>
+                    <!-- 下半：左連結、右價格 -->
+                <div class="d-flex align-items-center justify-content-between py-5">
+                      <div class="d-flex ">
+                        <a href="#" class="link-secondary me-4 me-lg-10 ms-edit">編輯</a>
+                        <a href="#" class="link-secondary ">刪除</a>
+                      </div>
+                      <div class="fw-bold fs-4">NT$ 1,230</div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="card border rounded-4 mb-7">
+              <div class="card-body">
+                <!-- 上半排版 -->
+                <div class="d-block align-items-start gap-3 border-bottom d-lg-flex">
+                  <div class="py-5 px-lg-7">
+                    <input class="form-check-input rounded-2" type="checkbox" checked>
+                  </div>
+                  <div class="d-block align-items-center d-lg-flex">
+                    <img src="/assets/images/cart/cart-1.png" alt="商品縮圖" class="rounded-3 object-fit-cover flex-shrink-0 cart-img mb-4 me-lg-4">
+                    <div class="flex-grow-1 me-lg-7">
+                      <h4 class="fw-bold mb-2">
+                        海關天空展望台門票 HARUKAS 300
+                      </h4>
+                      <p class="mb-2 small text-neutral-60">阿倍野展望台門票 HARUKAS 300 ｜ 附章魚燒兌換券</p>
+                      <p class="mb-7 small text-neutral-60">兌換期內皆適用</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 mb-5">
+                      <button type="button"
+                              class="btn btn-outline-secondary rounded-circle border-neutral-40 d-inline-flex align-items-center justify-content-center p-0"
+                              aria-label="減少"
+                              style="width:56px;height:56px;font-size:20px;">−</button>
+
+                      <span class="fw-semibold px-5 fs-3">1</span>
+
+                      <button type="button"
+                              class="btn btn-outline-secondary rounded-circle border-neutral-40 d-inline-flex align-items-center justify-content-center p-0"
+                              aria-label="增加"
+                              style="width:56px;height:56px;font-size:20px;">+</button>
+                    </div>
+
+
+
+                  </div>
+
+                </div>
+                    <!-- 下半：左連結、右價格 -->
+                <div class="d-flex align-items-center justify-content-between py-5">
+                      <div class="d-flex ">
+                        <a href="#" class="link-secondary me-4 me-lg-10 ms-edit">編輯</a>
+                        <a href="#" class="link-secondary ">刪除</a>
+                      </div>
+                      <div class="fw-bold fs-4">NT$ 410</div>
+                </div>
+              </div>
+              
+            </div>
+        </div>
+        <div class="col-lg-4 d-lg-block d-none">
+          <div class="card border rounded-4 mb-7">
+            <div class="card-body p-7">
+              <div>
+                <p class="display-6 pb-9 mb-0 fw-bold">費用明細</p>
+                <div class="d-flex justify-content-between">
+                  <p>商品小計</p>
+                  <p class="text-neutral-80 fw-bold">NT$ 3600</p>
+                </div>
+                <div class="d-flex justify-content-between pb-9 border-bottom">
+                  <p class="mb-0">優惠折抵</p>
+                  <p class="text-primary-60 mb-0">- 100</p>
+                </div>              
+                <div class="d-flex justify-content-between align-items-end py-9">
+                  <p class="text-neutral-80 mb-0">總計</p>
+                  <p class="fs-2 text-black mb-0 fw-bold">NT$ 3,500</p>
+                </div>
+                <button type="button" class="btn bg-primary-100 w-100 py-5 text-white">前往結賬</button>  
+
+
+
+              </div>
+    
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      </section>
+      <!-- 其他旅人也買了 -->
+      <section class="container py-lg-13 py-10">
+        <h3 class="pb-10 text-primary-100 "> # 其他旅人也買了</h3>
+        <div class="position-relative overflow-visible">
+            <button   type="button"  class="btn bg-white rounded-3 shadow-sm position-absolute top-50 start-0 translate-middle-y ms-n6 d-none d-lg-flex align-items-center justify-content-center z-3"
+              style="width:40px;height:40px" aria-label="上一個">
+              <span class="material-icons-outlined">arrow_back</span>
+            </button>
+            <button type="button" class="btn bg-white rounded-3 shadow-sm position-absolute top-50 end-0 translate-middle-y me-n6 d-none d-lg-flex align-items-center justify-content-center z-3"
+              style="width:40px;height:40px" aria-label="下一個">
+              <span class="material-icons-outlined">arrow_forward</span>
+            </button>
+            <div class="row overflow-x-auto flex-nowrap">
+                  <div class="col-lg-3 bg-neutral-10 overflow-hidden">
+                    <div class="card card-act-md rounded-5 border-0  bg-neutral-10">
+                      <img src="/assets/images/location/top-1.png" class="card-img-top position-relative rounded-5 mb-5" alt="...">
+                      <span class="material-icons-outlined position-absolute top-0 end-0 p-5 bg-black text-white opacity-40 rounded-5">favorite_border</span>
+                      <div class="card-body p-0">
+                        <div class="mb-5 border-bottom">
+                          <h5 class="card-title mb-1">環球影城超值一日遊｜哈利波特園區＋快速通關體驗</h5>
+                          <div class="d-flex mb-1">
+                              <span class="d-inline-block py-2 px-5 bg-primary-10 me-1  rounded-3">即買即用</span>
+                              <span class="d-inline-block py-2 px-5 bg-primary-10 rounded-3">5 天前可免費取消</span>
+                          </div>
+                          <div class="d-flex mb-5 align-items-center  ">
+                              <span class="text-neutral-80 pe-4 mb-5 border-end"><span class="material-icons-outlined align-bottom ">star</span>4.8(1029)</span>
+                              <span class="text-neutral-80 ms-4 mb-5 ">1,000+ 個已訂購</span>
+                          </div>
+                        </div>
+                        <p class="fs-4 mb-0">NT$ 5,480</p>
+                        <p class="fs-6 text-decoration-line-through">NT$ 6,200</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 bg-neutral-10 overflow-hidden">
+                    <div class="card card-act-md rounded-5 border-0 bg-neutral-10">
+                      <img src="/assets/images/location/top-2.png" class="card-img-top position-relative rounded-5 mb-5" alt="...">
+                      <span class="material-icons-outlined position-absolute top-0 end-0 p-5 bg-black text-white opacity-40 rounded-5">favorite_border</span>
+                      <div class="card-body p-0">
+                        <div class="mb-5 border-bottom">
+                          <h5 class="card-title  mb-1">奈良梅花鹿餵食體驗＋和服散策｜日式風情輕旅行</h5>
+                          <div class="d-flex mb-1">
+                              <span class="d-inline-block py-2 px-5 bg-primary-10 me-1  rounded-3">中文導覽</span>
+                              <span class="d-inline-block py-2 px-5 bg-primary-10 rounded-3">5 天前可免費取消</span>
+                          </div>
+                          <div class="d-flex mb-5 align-items-center  ">
+                              <span class="text-neutral-80 pe-4 mb-5 border-end"><span class="material-icons-outlined align-bottom ">star</span>4.2(333)</span>
+                              <span class="text-neutral-80 ms-4 mb-5 ">500+ 個已訂購</span>
+                          </div>
+                        </div>
+                        <p class="fs-4 mb-0">NT$ 3,890</p>
+                        <p class="fs-6 text-decoration-line-through">NT$ 4,920</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 bg-neutral-10 overflow-hidden">
+                    <div class="card card-act-md rounded-5 border-0 bg-neutral-10">
+                      <img src="/assets/images/location/top-3.png" class="card-img-top position-relative rounded-5 mb-5" alt="...">
+                      <span class="material-icons-outlined position-absolute top-0 end-0 p-5 bg-black text-white opacity-40 rounded-5">favorite_border</span>
+                      <div class="card-body p-0">
+                        <div class="mb-5 border-bottom">
+                          <h5 class="card-title  mb-1">黑門市場美食巡禮｜在地職人帶路吃遍大阪經典小吃</h5>
+                          <div class="d-flex mb-1">
+                              <span class="d-inline-block py-2 px-5 bg-primary-10 me-1  rounded-3">專業導覽</span>
+                              <span class="d-inline-block py-2 px-5 bg-primary-10 rounded-3">5 天前可免費取消</span>
+                          </div>
+                          <div class="d-flex mb-5 align-items-center  ">
+                              <span class="text-neutral-80 pe-4 mb-5 border-end"><span class="material-icons-outlined align-bottom ">star</span>4.6(540)</span>
+                              <span class="text-neutral-80 ms-4 mb-5 ">700+ 個已訂購</span>
+                          </div>
+                        </div>
+                        <p class="fs-4 mb-0">NT$ 1,580</p>
+                        <p class="fs-6 text-decoration-line-through">NT$ 2,500</p>
+                      </div>
+                    </div>
+                  </div>                
+                  <div class="col-lg-3 bg-neutral-10 overflow-hidden">
+                    <div class="card card-act-md rounded-5 border-0 bg-neutral-10">
+                      <img src="/assets/images/location/top-4.png" class="card-img-top position-relative rounded-5 mb-5" alt="...">
+                      <span class="material-icons-outlined position-absolute top-0 end-0 p-5 bg-black text-white opacity-40 rounded-5">favorite_border</span>
+                      <div class="card-body p-0">
+                        <div class="mb-5 border-bottom">
+                          <h5 class="card-title  mb-1">大阪夜景直升機體驗｜空中俯瞰梅田摩天輪＋海遊館</h5>
+                          <div class="d-flex mb-1">
+                              <span class="d-inline-block py-2 px-5 bg-primary-10 me-1  rounded-3">即買即用</span>
+                              <span class="d-inline-block py-2 px-5 bg-primary-10 rounded-3">7天前可免費取消</span>
+                          </div>
+                          <div class="d-flex mb-5 align-items-center  ">
+                              <span class="text-neutral-80 pe-4 mb-5 border-end"><span class="material-icons-outlined align-bottom ">star</span>4.7(319)</span>
+                              <span class="text-neutral-80 ms-4 mb-5 ">600+ 個已訂購</span>
+                          </div>
+                        </div>
+                        <p class="fs-4 mb-0">NT$ 6,890</p>
+                        <p class="fs-6 text-decoration-line-through">NT$ 8,890</p>
+                      </div>
+                    </div>
+                  </div>                   
+            </div>
+        </div>
+      </section>
+      <!-- modal -->
+      <section class="container d-flex justify-content-between py-4 px-5 d-lg-none">
+        <div>
+           <div class="d-flex">
+            <button type="button" class="border-0 bg-neutral-10 px-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop">展開明細</button><span class="material-icons-outlined ms-1">keyboard_arrow_up</span>
+           </div>
+          <p class="fs-4">NT$ 3,600</p>
+        </div>
+        <button type="button" class="btn bg-primary-100 px-9 py-5 text-white">前往結賬</button>
+
+        <!-- Modal：改成 bottom sheet -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog m-0 d-flex align-items-end min-vh-100 w-100">
+            <div class="modal-content rounded-top-4">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">費用明細</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="d-flex justify-content-between">
+                  <p>商品小計</p>
+                  <p class="text-neutral-80">NT$ 3600</p>
+                </div>
+                <div class="d-flex justify-content-between pb-4 border-bottom">
+                  <p>優惠折抵</p>
+                  <p class="text-primary-60 ">- 100</p>
+                </div>              
+                <div class="d-flex justify-content-between align-items-end py-5">
+                  <p class="text-neutral-80 mb-2">總計</p>
+                  <p class="fs-2 text-black mb-2">NT$ 3,600</p>
+                </div>
+              </div>
+              <div class="modal-footer d-flex  justify-content-between">
+                <div >
+                  <div class="d-flex">
+                    <button type="button" class="border-0 bg-neutral-10 px-0" data-bs-dismiss="modal">收合明細</button><span class="material-icons-outlined ms-1">keyboard_arrow_down</span>
+                  </div>
+                  <p class="fs-2 text-black ">NT$ 3,600</p>
+                </div>
+                <button type="button" class="btn bg-primary-100 px-9 py-5 text-white">前往結賬</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </section>
+    </main>
+
+
+
+    <%- include('./layout/footer'); -%>
+    <script src="https://cdn.jsdelivr.net/npm/air-datepicker@3.6.0/air-datepicker.js"></script>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
